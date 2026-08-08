@@ -37,9 +37,6 @@
   --sidebar-accent-foreground: oklch(0.2178 0.0059 91.6249);
   --sidebar-border: oklch(0.8380 0.0236 84.5932);
   --sidebar-ring: oklch(0.6641 0.0831 77.4038);
-  --font-sans: Inter, system-ui, sans-serif;
-  --font-serif: Libre Caslon Text, Georgia, serif;
-  --font-mono: ui-monospace, SFMono-Regular, monospace;
   --radius: 0.5rem;
   --shadow-x: 0px;
   --shadow-y: 4px;
@@ -93,7 +90,7 @@
   --sidebar-border: oklch(0.3407 0.0106 91.6501);
   --sidebar-ring: oklch(0.6641 0.0831 77.4038);
   --font-sans: Inter, system-ui, sans-serif;
-  --font-serif: Libre Caslon Text, Georgia, serif;
+  --font-serif: Georgia, serif;
   --font-mono: ui-monospace, SFMono-Regular, monospace;
   --radius: 0.5rem;
   --shadow-x: 0px;
@@ -145,10 +142,6 @@
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
-
-  --font-sans: var(--font-sans);
-  --font-mono: var(--font-mono);
-  --font-serif: var(--font-serif);
 
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
