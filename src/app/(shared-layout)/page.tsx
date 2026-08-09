@@ -1,12 +1,30 @@
-import HeroSection from '@/components/web/Hero-section'
-import React from 'react'
+import HeroSection from "@/components/web/Hero-section";
+import EthosSection from "@/components/web/Ethos-section";
+import CuratedShelves from "@/components/web/Curated-shelves";
+import InteractiveReaderPreview from "@/components/web/Interactive-reader-preview";
+import TestimonialsSection from "@/components/web/Testimonials-section";
+import NewsletterCta from "@/components/web/Newsletter-cta";
 
-const page = () => {
+export default function HomePage() {
   return (
-    <main className='w-full min-h-screen relative overflow-x-hidden'>
+    <div className="w-full flex flex-col items-center">
+      {/* 1. Hero Section & Spotlight Deck */}
       <HeroSection />
-    </main>
-  )
-}
 
-export default page
+      {/* 2. Ethos & Anti-Algorithm Manifesto */}
+      <EthosSection />
+
+      {/* 3. Curated Shelves & Volume Catalog */}
+      <CuratedShelves />
+
+      {/* 4. Interactive Live Reader Workstation */}
+      <InteractiveReaderPreview />
+
+      {/* 5. Reader Acclaim & Testimonials */}
+      <TestimonialsSection />
+
+      {/* 6. Dispatch Newsletter & Final Invitation */}
+      <NewsletterCta />
+    </div>
+  );
+}
