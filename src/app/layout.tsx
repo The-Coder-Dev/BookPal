@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Instrument_Sans, Lora } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
-import Navbar from "@/components/web/Navbar";
 
 const inter = Instrument_Sans({
   subsets: ["latin"],
